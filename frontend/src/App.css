@@ -1,0 +1,85 @@
+/* App.css */
+
+.app-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Fallback color */
+    /* background-image: url('https://t3.ftcdn.net/jpg/02/57/81/56/240_F_257815614_ORCWmpnJgReLJX53NrU94IGWnLrRJjVX.jpg'); */
+    background-size: cover;
+    background-position: center;    
+    background-color: #031f2a;
+ }
+ 
+ .logo {
+    width: 200px; /* Adjust size as needed */
+    margin-bottom: 20px;
+ }
+ 
+ .logo1 img{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    margin-left:50px;
+    margin-top:10px;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+ }
+
+ .logo1 h5{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    margin-left:50px;
+    margin-top: 10px;
+    position: absolute;
+    top: 30px;
+    left: 130px;
+    color:white;
+ }
+
+ .animation-container {
+    margin-bottom: 40px;
+ }
+ 
+ 
+ .buttons-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+ }
+ 
+ .background-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .background-image img{
+    height:250px;
+    width:250px;
+    margin:15px;
+ }
+ .button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #20dae8;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+ }
+ 
+ .button:hover {
+    background-color: #0056b3;
+ }
+
+ .footer{
+    color:white;
+ }
+ 

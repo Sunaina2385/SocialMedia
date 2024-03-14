@@ -1,0 +1,23 @@
+*{
+    /* color:white; */
+}
+.footer {
+    position: absolute;
+    left:-0.1%;
+    /* right:50%; */
+    bottom: 0%;
+    /* padding: 20px 0; */
+    
+    
+}
+
+
+.copyright {
+    /* margin-top: 10px; */
+    font-size: 18px;
+    /* color: #666; */
+    background-color: gainsboro;    
+    width: 100vw;
+    text-align: center;
+    color: black;
+}

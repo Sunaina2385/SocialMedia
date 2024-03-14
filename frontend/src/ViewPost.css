@@ -1,0 +1,111 @@
+body {
+    background-color: #f9f9f9; 
+    font-family: Arial, sans-serif; /* Use a common font family */
+  }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #fff; */
+  }
+
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .postDivs{
+    background-color: white;    
+  }
+
+  .post {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    margin-left: 15px;
+  }
+  
+
+  
+  .post-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    background-color: white;
+    /* color: black; */
+  }
+
+  .post-content {
+    font-size: 19px;
+    margin-top: 10px;
+    /* text-transform: capitalize; */
+    /* background-color: red; */
+    padding:1%;
+    /* color: black; */
+  }
+  /*  */
+  .link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:  #20dae8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 15px;
+  }
+
+  .link1 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    /* background-color: #007bff; */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin:5px;
+    margin-right: 20px;
+  }
+
+  .headerSearch{
+    width:30%;
+    margin-left:40px;
+    background-color: white;
+  }
+
+  .link:hover {
+    background-color: #0056b3;
+  }
+  
+  .loading {
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .error {
+    font-size: 24px;
+    color: #ff0000;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .postsDiv{
+    display: flex;
+    /* flex-direction: row; */
+    float: left;
+  }
+
+  .postsCont{
+    margin-left:8%;
+    margin-top:5%;
+  }
